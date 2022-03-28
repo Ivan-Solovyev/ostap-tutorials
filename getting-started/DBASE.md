@@ -2,7 +2,7 @@
 
 ##  `ostap.io.zipshelve`
 Ostap offers very nice&efficient way to store the objects in persistent dbase.
-This persistency is build around [`shelve` module](https://docs.python.org/2/library/shelve.html) and differs in two way
+This persistency is build around [`shelve` module](https://docs.python.org/2/library/shelve.html) and differs in two ways
  1. the content of payload is compressed, using [`zlib` module](https://docs.python.org/2/library/zlib.html) making the data base very compact 
      - (optionally) the whole database can ve further  `gzip`'ed using [`gzip` module](https://docs.python.org/2/library/gzip.html), if the extension `.gz` is provided. It makes data banse even more compact.
  2. in addition to the native `dict` interface from `shelve`, more extensiveinterface with more methods is supported. 
