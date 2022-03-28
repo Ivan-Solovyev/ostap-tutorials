@@ -23,7 +23,7 @@ with DBASE.open ( 'my_dbase.db' , 'read') as db : ## read DBASE
   b  = db['a'] 
   h2 = db['histo']
 ```
-One can store in database all _pickable_ objects, that means all python objects, all (serializeable) `ROOT` objects. All `C++` objects  with `LCG/Reflex/Cint`-dictionaries are also could be stored database. In practice, everything is storable, including complex combination of python&C++ objects, like dictionary of historgams and python classed, inherited from `C++`-base classes.   
+One can store in database all _pickable_ objects, that means all python objects, all (serializeable) `ROOT` objects. All `C++` objects  with `LCG/Reflex/Cint`-dictionaries are also could be stored in database. In practice, everything is storable, including complex combination of python&C++ objects, like dictionary of historgams and python classed, inherited from `C++`-base classes.   
 
 ## Plain `ROOT.TFile`
 
