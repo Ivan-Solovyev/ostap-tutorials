@@ -91,7 +91,7 @@ is applied on _per-chunk_ level.
 ## _Data, Data2 and DataAndLumi_ 
 
 There is useful way to collect many ROOT files into single chains, avoiding non-existent, broken and invalid  trees 
-(that is not so rare for the outptu of Ganga)
+(that is not so rare for the output of Ganga)
 ```python
 from   ostap.trees.data import DataAndLumi as Data  
 ganga = '/afs/cern.ch/work/i/ibelyaev/public/GANGA/workspace/ibelyaev/LocalXML'
